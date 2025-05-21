@@ -46,5 +46,9 @@
             " -> Ancho: " . $this->getAnchoVagon() . "\n" .
             " -> Peso del vagon vacío: " . $this->getPesoVagonVacio() . "\n";
         }
+        public function calcularPesoVagon(){
+            $pesoVagonVacio = $this->getPesoVagonVacio();
+            return $pesoVagonVacio;
+        }
     }
 ?>

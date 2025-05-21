@@ -1,0 +1,46 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.2 Chrome/134.0.6998.205 Electron/35.3.0 Safari/537.36" version="27.0.2">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="908" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="fq7kpKNAtHe6J4tNnDhY-0" value="FORMACION" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="160" width="330" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="fq7kpKNAtHe6J4tNnDhY-1" value="- $objLocomotora: obj&lt;div&gt;- $coleccionDeVagones: array&lt;/div&gt;&lt;div&gt;- $maxCantVagones: int&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fq7kpKNAtHe6J4tNnDhY-0">
+          <mxGeometry y="26" width="330" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="fq7kpKNAtHe6J4tNnDhY-2" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="fq7kpKNAtHe6J4tNnDhY-0">
+          <mxGeometry y="90" width="330" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fq7kpKNAtHe6J4tNnDhY-3" value="+ __construct($objLocomotora, $maxCantVagones)&lt;div&gt;+ getters() y setters()&lt;/div&gt;&lt;div&gt;+ mostrarColeccion($coleccion)&lt;/div&gt;&lt;div&gt;+ __toString()&lt;/div&gt;&lt;div&gt;+ incorporarPasajeroFormacion($cantPasajero)&lt;/div&gt;&lt;div&gt;+ incorporarVagonFormacion($objVagon)&lt;/div&gt;&lt;div&gt;+ promedioPasajeroFormacion()&lt;/div&gt;&lt;div&gt;+ pasoFormacion()&lt;/div&gt;&lt;div&gt;+ retornarVagonSinCompletar()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fq7kpKNAtHe6J4tNnDhY-0">
+          <mxGeometry y="98" width="330" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="fq7kpKNAtHe6J4tNnDhY-4" value="VAGON" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="30" y="520" width="330" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="fq7kpKNAtHe6J4tNnDhY-5" value="- $anioInstalacionVagon: int&lt;div&gt;- $largoVagon: int&lt;/div&gt;&lt;div&gt;- $anchotVagon: int&lt;/div&gt;&lt;div&gt;- $pesoVagonVacio: int&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fq7kpKNAtHe6J4tNnDhY-4">
+          <mxGeometry y="26" width="330" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="fq7kpKNAtHe6J4tNnDhY-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="fq7kpKNAtHe6J4tNnDhY-4">
+          <mxGeometry y="90" width="330" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fq7kpKNAtHe6J4tNnDhY-7" value="+ __construct($anioInstalacionVagon,&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;$largoVagon,&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;$anchotVagon,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;pesoVagonVacio&lt;/span&gt;)&lt;div&gt;+ getters() y setters()&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ __toString()&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fq7kpKNAtHe6J4tNnDhY-4">
+          <mxGeometry y="98" width="330" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="fq7kpKNAtHe6J4tNnDhY-8" value="LOCOMOTORA" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="380" y="520" width="340" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="fq7kpKNAtHe6J4tNnDhY-9" value="- $pesoLocomotora: int&lt;div&gt;- $valocidadMaxLocomotora: int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fq7kpKNAtHe6J4tNnDhY-8">
+          <mxGeometry y="26" width="340" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="fq7kpKNAtHe6J4tNnDhY-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="fq7kpKNAtHe6J4tNnDhY-8">
+          <mxGeometry y="90" width="340" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="fq7kpKNAtHe6J4tNnDhY-11" value="+ __construct($pesoLocomotora, $valocidadMaxLocomotora)&lt;div&gt;+ getters() y setters()&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ __toString()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="fq7kpKNAtHe6J4tNnDhY-8">
+          <mxGeometry y="98" width="340" height="162" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
