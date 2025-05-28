@@ -8,7 +8,7 @@
             parent::__construct($anioInstalacionVagon, $largoVagon, $anchoVagon, $pesoVagonVacio);
             $this->pesoMaxCarga = $pesoMaxCarga;
             $this->pesoCarga = $pesoCarga;
-            $this->indiceCarga = $pesoCarga * 0.2;
+            $this->indiceCarga = 0.2;
         }
 
         public function getPesoMaxCarga(){
@@ -42,17 +42,21 @@
         public function incorporarCargaVagon($cantCarga){
             $incorporacionCorrecta = false;
             $cantCargaVagon = $this->getPesoCarga() + $cantCarga;
+
             if($cantCargaVagon <= $this->getPesoMaxCarga()){
                 $this->setPesoCarga($cantCargaVagon);
+                $this->calcularPesoVagon();
                 $incorporacionCorrecta = true;
             }
             return $incorporacionCorrecta;
         }
 
         public function calcularPesoVagon(){
-            $pesoVagon = 0;
-            $pesoVagon = $this->getPesoVagonVacio() + $this->getPesoCarga() + $this->getIndiceCarga();
-            return $pesoVagon;
+            $pesoBase = parent::calcularPesoVagon();
+            $pesoFinal = 0;
+            $pesoVagon = $this->getPesoCarga() + ($this->getPesoCarga() * $this->getIndiceCarga());
+            $pesoFinal = $pesoBase + $pesoVagon;
+            return $pesoFinal   ;
         }
     }
 ?>

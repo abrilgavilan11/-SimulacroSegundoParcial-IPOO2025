@@ -44,6 +44,7 @@
             $cantPasajerosVagon = $this->getCantPasajeros() + $cantPasajeros;
             if($cantPasajerosVagon <= $this->getCantMaxPasajeros()){
                 $this->setCantPasajeros($cantPasajerosVagon);
+                $this->calcularPesoVagon();
                 $incorporacionCorrecta = true;
             }
             return $incorporacionCorrecta;
